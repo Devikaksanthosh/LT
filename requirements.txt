@@ -1,4 +1,5 @@
 streamlit==1.17.0
 transformers==4.33.2
 torch
-sentencepiece==0.2.0
+sentencepiece>=0.1.91,<0.1.95  # Use a version that provides pre-built wheels
+cmake>=3.18                    # Needed for building certain components
