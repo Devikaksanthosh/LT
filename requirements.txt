@@ -1,5 +1,5 @@
 streamlit==1.17.0
 transformers==4.33.2
-torch==2.3.1
-sentencepiece==0.1.96  # Use a version with pre-built wheels available
-cmake==3.18.4          # Ensure a specific version of cmake is used
+torch
+sentencepiece==0.1.96  # Update to a version with pre-built wheels
+tokenizers==0.13.3     # Use a stable version that does not require building from source
