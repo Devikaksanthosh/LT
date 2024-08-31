@@ -1,4 +1,2 @@
-transformers==4.35.0  # Use a compatible version
-torch==2.1.0
-huggingface_hub==0.16.0
-tqdm==4.65.0  # Ensure tqdm is included, using a version known to be stable
+transformers==4.35.0
+torch==2.4.0
